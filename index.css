@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    
+}
+body{
+    color: white;
+    height: 50%;
+    background:linear-gradient(to right, #141e30,#243b55);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div{
+    width: 50%;
+    border:3px solid white;
+    margin: 70px auto;
+    background-color: palevioletred;
+    box-shadow: 3px 3px 3px  lightseagreen;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#result{
+    font-size: 25px;
+    text-shadow: none;
+    width: 300px;
+    margin: 20px auto;
+}
+span{
+    color: red;
+    white-space: nowrap;
+    font-size: 20px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,5);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgb(38,57,77) 0px 20px 30px -10px;
+    align-items: center; 
+
+}
+input{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+select{
+    outline: none;
+    border-radius: 10px;
+}
+#btn{
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px solid rgb(32,178,170);
+    box-shadow: 2px 2px 1px white;
+}
+#btn:hover{
+    background-color:orange;
+}
+div{
+    text-align: center;
+    font-size: large;
+    margin-top: 10%;
+    width: 100%;
+}
+p{
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px gray;
+}
+select{
+    font-size: 30px;
+}
+#type{
+    background-color:lightseagreen;
+}
+#grams{
+    font-size: 25px;
+    width: 200px;
+}
+#hrs{
+    margin-bottom:0px;
+}
+#hrs1{
+    margin-top:0px;
+}

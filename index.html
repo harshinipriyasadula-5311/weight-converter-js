@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weight converter</title>
+    <script src="https://kit.fontawesome.com/35888ab816.js" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id=hrs1><hr><hr><hr><hr><hr></div>
+    <h1><<---Weight Converter--->></h1>
+
+    <div class="div">
+        <div clas="box">
+        <p>Enter a value in grams</p>
+        <i class="fa-solid fa-arrow-right fa-2xl" style="color: #edeff3;"></i> &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <input type="text"id="grams"><br>
+        <span id="error"></span>
+        <p>
+            Convert To =
+            <select id="type">
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="ounces">Ounces</option>
+                <option value="stones">Stones</option>
+                <option value="tonne">Tonne</option>
+
+            </select>
+        </p>
+        <button id="btn">Convert</button>
+        <p id="result"></p>
+     </div>
+    </div>
+    <div id="hrs"><hr><hr><hr><hr><hr></div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
